@@ -86,6 +86,7 @@ $$\text{加速比} = \frac{time_{std::sort}}{time_{OddEvenMerge}}$$
 
 编译并运行：
 ```cd Parallel-odd-even-merge-sort-network```
+
 ```./compile_run.sh```
 
 仅运行：
@@ -94,5 +95,7 @@ $$\text{加速比} = \frac{time_{std::sort}}{time_{OddEvenMerge}}$$
 ### 排序输出可视化
 
 ```cd Parallel-odd-even-merge-sort-network```
+
 ```g++ -o test -lpthread test.cpp OddEvenMergingSort.cpp OddEvenMergingNet.cpp```
+
 ```./test```
